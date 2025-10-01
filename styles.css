@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+   font-family: Arial, sans-serif;
+      background: #f7fafc;
+      margin: 0;
+      padding: 0;
+      color: #222;
+
+}
+
+.upload-box {
+  border: 2px dashed #a88ef0;
+  border-radius: 12px;
+  background: #f8f5ff;
+  transition: border-color 0.3s ease;
+}
+
+.upload-box:hover {
+  border-color: #7a5af5;
+}
+
+.score-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 6px solid #ff5722;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: #ff5722;
+}
+
+.result-box {
+  background: #fff;
+  border-radius: 10px;
+}
+
+/* Navbar styling */
+.navbar-nav .nav-link {
+  font-weight: 400;
+  margin-left: 12px;
+  color: #333;
+}
+
+
+.navbar-nav .nav-link:hover {
+  color: #0d6efd;
+}
+
+.navbar-nav .nav-link.active {
+  color: #0d6efd;
+}
+ /* resumescanner  section */
+ .section-title {
+      font-weight: bold;
+      font-size: 1.4rem;
+    }
+    .number-circle {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background-color: #6f42c1;
+      color: white;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+    }
+     .me-3 {
+        background-color: #6f42c1;
+    }
+    .info-block {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+
+/* Our AI-powered part css  */
+ .section-title-2{
+      font-weight: bold;
+      font-size: 1.8rem;
+    }
+    .card-custom {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      transition: 0.3s;
+    }
+    .card-custom:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+    }
+    .icon-circle {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background: #6f42c1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .checklist {
+      list-style: none;
+      padding-left: 0;
+    }
+    .checklist li::before {
+      content: "\f00c"; /* Font Awesome check icon */
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      color: #6f42c1;
+      margin-right: 8px;
+    }
